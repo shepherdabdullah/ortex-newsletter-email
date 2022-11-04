@@ -28,7 +28,8 @@
         background-color: #ffffff;
       }
 
-      .article {
+      .article,
+      .white-background {
         background-color: #ffffff;
       }
 
@@ -51,8 +52,19 @@
         height: 18px;
         font-size: 16px;
         color: #ffffff;
-        font-style: arial, helvetica, sans-serif;
+        font-family: arial, helvetica, sans-serif;
         text-decoration: none;
+      }
+
+      .footer {
+        background-color: #eff2f7;
+      }
+
+      .footer-text {
+        font-size: 14px;
+        color: #3b3f44;
+        font-family: arial, helvetica, sans-serif;
+        text-align: center;
       }
     </mj-style>
   </mj-head>
@@ -190,11 +202,39 @@
     <mj-raw>
       <!--CTA Button-->
     </mj-raw>
-    <mj-section css-class="article">
+    <mj-section css-class="white-background">
       <mj-column>
         <mj-button border-radius="4px" line-height="1.5" width="285px" height="42px" padding="12px 5px" background-color="#3aa7a5">
           <a class="button-link" href="https://public.ortex.com/">Go to ORTEX</a>
         </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Social Media Icons-->
+    </mj-raw>
+    <mj-section css-class="white-background">
+      <mj-group>
+        <mj-column>
+          <mj-image width="32px" height="32px" href="https://twitter.com/ORTEX" src="https://i.ibb.co/dWJD1gB/twitter.png" alt="Ortex Official Twitter" />
+        </mj-column>
+        <mj-column>
+          <mj-image width="32px" height="32px" href="https://www.youtube.com/c/ORTEX_Official" src="https://i.ibb.co/B6Ts3k5/youtube.png" alt="Ortex Official Youtube Channel" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw>
+      <!--Footer-->
+    </mj-raw>
+    <mj-section css-class="footer">
+      <mj-column>
+        <mj-text>
+          <p style="padding-top: 8px; Margin: 0; line-height: 1.5; font-size: 18px; font-weight: bold; text-align: center; color: #3b3f44; font-family: arial, helvetica, sans-serif;">ORTEX Technologies LTD</p>
+          <p class="footer-text" style="Margin: 0; line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">26-27 Bedford Square, WC1B 3HP, London</p>
+          <p class="footer-text" style="line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">This email was sent to ExampleEmail@ExampleEmailClient.com<br>You've received this email because you've subscribed to our newsletter.</p>
+          <p style="padding-top: 5px; text-align: center; font-size: 14px; text-decoration: underline; color: #0092ff;"><a href="#">Unsubscribe</a>
+          <p>
+        </mj-text>
+        <mj-image padding-top="0px" width="129px" height="48px" src="https://i.ibb.co/jzpGWzs/sendinblue.png" alt="Sendinblue Logo" />
       </mj-column>
     </mj-section>
   </mj-body>
