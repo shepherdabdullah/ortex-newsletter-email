@@ -11,6 +11,11 @@
       a {
         font-family: arial, helvetica, sans-serif;
       }
+
+      a {
+        color: #0092ff;
+        text-decoration: underline;
+      }
     </mj-style>
     <mj-style inline="inline">
       .email-container {
@@ -39,6 +44,15 @@
         font-size: 16px;
         line-height: 1.5;
         text-align: left
+      }
+
+      .button-link {
+        width: 275px;
+        height: 18px;
+        font-size: 16px;
+        color: #ffffff;
+        font-style: arial, helvetica, sans-serif;
+        text-decoration: none;
       }
     </mj-style>
   </mj-head>
@@ -109,6 +123,78 @@
             added 8%, and the Nasdaq Composite advanced by 3.9%.</p>
         </mj-text>
         <mj-image src="https://i.ibb.co/prjk16t/industry-graph.png" width="570px" height="400px" alt="industry graph" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Article III-->
+    </mj-raw>
+    <mj-section css-class="article">
+      <mj-column>
+        <mj-text>
+          <h2 class="article-title">October's Top Performing Trading Signal</h2>
+          <p class="article-text">On October 13, ORTEX generated a Short Squeeze (Type 2) Trading Signal for
+            ESSA Pharma (<a href="https://app.ortex.com/s/Nasdaq/EPIX">Nasdaq: EPIX</a>), which was the top
+            performing signal of the month. Over the subsequent 10-day recommended holding period, ESSA Pharma
+            stock rallied by nearly 162%.</p>
+          <p class="article-text">The main fundamental driver of the move was an announcement that ESSA Pharma’s
+            drug candidate EPI-7386, which is a new therapy for prostate cancer, demonstrated positive clinical data
+            in a study. The drug candidate was safe and well-tolerated when administered in combination with enzalutamide,
+            while the company observed a reduction in prostate specific antigen levels.</p>
+          <p class="article-text">Please note that ORTEX Trading Signals are based on historical performance and are not
+            investment advice</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Article IV-->
+    </mj-raw>
+    <mj-section css-class="article">
+      <mj-column>
+        <mj-text>
+          <h2 class="article-title">Highest Short Seller Gain and Loss</h2>
+          <p class="article-text">Of the major tech stocks that reported earnings last week, only Apple
+            (<a href="https://app.ortex.com/s/Nasdaq/AAPL">Nasdaq: AAPL</a>) was able to deliver solid results
+            that reassured investors and sent the stock higher. With 900 million paid subscriptions across its
+            entire Services business, the Cupertino-based tech giant earned investor confidence that its business
+            will be resilient in the face of macroeconomic headwinds. Apple bears incurred total losses of $1.62
+            billion for the month.</p>
+          <p class="article-text">On the other end of the spectrum, Tesla (<a href="https://app.ortex.com/s/Nasdaq/TSLA">Nasdaq: TSLA</a>)
+            delivered the most profits to short sellers during the month of October. The electric vehicle (EV) leader missed revenue
+            expectations in the third quarter, even as sales set a new quarterly record. CEO Elon Musk closed his
+            acquisition of Twitter last month, which is also fueling fears around how foreign governments could leverage
+            speech regulations around the newest entrant into the Elon Musk Cinematic Universe in ways that could
+            potentially impact Tesla. Tesla shares are trading near 52-week lows, with short sellers enjoying $2.5 billion
+            in gains for October.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Article V-->
+    </mj-raw>
+    <mj-section css-class="article">
+      <mj-column>
+        <mj-text>
+          <h2 class="article-title">What's New on ORTEX</h2>
+          <p class="article-text">This month, we rolled out Custom Views, a highly-anticipated feature that customers
+            have been asking for. With this new module, users can create multiple layouts of information that can be
+            tailored to specific views and datasets. Each view includes a ticker linking capability, so users can easily
+            switch between stocks while preserving the data being displayed. Custom Views offer a new level of customization
+            for a broad range of trading and investing strategies.</p>
+          <p class="article-text">In addition to Custom Views, ORTEX introduced Event Transcripts that include earnings calls,
+            investor conferences, analyst day events, and more. These events are a crucial source of both qualitative and quantitative
+            information for investors, providing unique insight and additional color from management regarding the current state of the
+            business as well as forward-looking expectations. Transcripts can now be found under a stock’s Events tab.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--CTA Button-->
+    </mj-raw>
+    <mj-section css-class="article">
+      <mj-column>
+        <mj-button border-radius="4px" line-height="1.5" width="285px" height="42px" padding="12px 5px" background-color="#3aa7a5">
+          <a class="button-link" href="https://public.ortex.com/">Go to ORTEX</a>
+        </mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
