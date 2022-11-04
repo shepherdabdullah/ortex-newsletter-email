@@ -85,5 +85,31 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-raw>
+      <!--Article II-->
+    </mj-raw>
+    <mj-section css-class="article" padding-top="0">
+      <mj-column>
+        <mj-text>
+          <h2 class="article-title">Market developments in October</h2>
+          <p class="article-text">The month of October started off with a strong rally, only to see
+            pessimism return. The major indexes then started to sell off ahead of the monthly Consumer
+            Price Index (CPI) report, as investors continue to fret over persistent inflation.
+            The CPI data showed that prices jumped 8.2% year-over-year in the month of September,
+            representing a modest improvement from August’s 8.3% increase.</p>
+          <p class="article-text">The report initially sparked aggressive selling, causing the indexes
+            to breach the 2022 lows set in June before staging a stunning reversal throughout the balance
+            of that day and closing higher. The market mostly maintained that upward momentum for the rest
+            of October and finished with a monthly gain.</p>
+          <p class="article-text">Earnings season also kicked off in October, giving investors the latest
+            updates around corporate profitability. The quarterly results from major tech companies largely
+            disappointed the market, pointing to a broader slowdown in the global advertising industry while
+            cooling consumer demand for PCs led to weakness in that market.</p>
+          <p class="article-text">For the month, the Dow Jones Industrial Average rallied 14%, the S&P 500
+            added 8%, and the Nasdaq Composite advanced by 3.9%.</p>
+        </mj-text>
+        <mj-image src="https://i.ibb.co/prjk16t/industry-graph.png" width="570px" height="400px" alt="industry graph" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
