@@ -1,0 +1,20 @@
+Logo:
+https://i.ibb.co/2jRqHbn/ortex-logo.png
+Banner:
+https://i.ibb.co/LZKBC42/bull-bear.jpg
+Article image 1:
+https://i.ibb.co/hKW31Pd/short-profit-graph.png
+Article image 2:
+https://i.ibb.co/prjk16t/industry-graph.png
+Social Media Icons:
+https://i.ibb.co/dWJD1gB/twitter.png
+https://i.ibb.co/B6Ts3k5/youtube.png
+Footer image:
+https://i.ibb.co/jzpGWzs/sendinblue.png
+
+Email-Container Color: #ffffff
+Footer BG Color: #eff2f7
+Header Text Color: #0d928d
+Article Text Color: #3b3f44
+Article Link Text Color: #0092ff
+CTA Button Color: #3aa7a5

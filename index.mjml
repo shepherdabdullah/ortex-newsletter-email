@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        padding: 0;
+        margin: 0 auto;
+      }
+
+      h1,
+      p,
+      a {
+        font-family: arial, helvetica, sans-serif;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .email-container {
+        background-color: #ffffff;
+      }
+
+      .header {
+        background-color: #ffffff;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ddd">
+    <mj-raw>
+      <!--Header-->
+    </mj-raw>
+    <mj-section css-class="header">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/2jRqHbn/ortex-logo.png" align="center" width="200px" alt="Ortex Logo" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Banner-->
+    </mj-raw>
+    <mj-section css-class="banner" padding-bottom="0" background-color="#ffffff">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/LZKBC42/bull-bear.jpg" width="570px" height="285px" alt="Bulls and Bears Banner" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Main h1/Header of Email-->
+    </mj-raw>
+    <mj-section css-class="info-header" background-color="#ffffff">
+      <mj-column>
+        <mj-text css-class="h1-main-header" align="center" font-size="36px" font-weight="bold" line-height="1.5" color="#0d928d">
+          <p>ORTEX Monthly Recap for<br> October</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
