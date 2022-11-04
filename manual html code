@@ -97,7 +97,7 @@
         margin: 0 auto;
       }
 
-      h1,
+      h2,
       p,
       a {
         font-family: arial, helvetica, sans-serif;
@@ -106,7 +106,7 @@
   </head>
   <body style="word-spacing: normal; background-color: #dddddd">
     <div style="background-color: #dddddd">
-      <!--Header--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="header-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <!--Monthly Recap Header--><!--Header--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="header-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
       <div
         class="header"
         style="background-color: #ffffff; margin: 0px auto; max-width: 600px"
@@ -306,8 +306,7 @@
         </table>
       </div>
       <!--[if mso | IE]></td></tr></table><!
-      [endif]--><!--Monthly Info Header/
-      servers as the main h1 Header of page--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="info-header-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      [endif]--><!--Main h1/Header of Email--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="info-header-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
       <div
         class="info-header"
         style="
@@ -332,6 +331,7 @@
                   direction: ltr;
                   font-size: 0px;
                   padding: 20px 0;
+                  padding-bottom: 0;
                   text-align: center;
                 "
               >
@@ -377,6 +377,244 @@
                             "
                           >
                             <p>ORTEX Monthly Recap for<br />October</p>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><!
+      [endif]--><!--Article I--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="article-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div
+        class="article"
+        style="background-color: #ffffff; margin: 0px auto; max-width: 600px"
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 20px 0;
+                  text-align: center;
+                "
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    font-size: 0px;
+                    text-align: left;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    style="vertical-align: top"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          align="left"
+                          style="
+                            font-size: 0px;
+                            padding: 10px 25px;
+                            word-break: break-word;
+                          "
+                        >
+                          <div
+                            style="
+                              font-family: Ubuntu, Helvetica, Arial, sans-serif;
+                              font-size: 13px;
+                              line-height: 1;
+                              text-align: left;
+                              color: #000000;
+                            "
+                          >
+                            <h2
+                              class="article-title"
+                              style="
+                                color: #0d928d;
+                                font-size: 19px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              ORTEX Perspectives on the S&P 500 for October
+                            </h2>
+                            <p
+                              class="article-text"
+                              style="
+                                color: #3b3f44;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              October proved to be a volatile month, with the
+                              major indexes breaching the June lows to set fresh
+                              year-to-date lows before staging a strong rebound
+                              to finish the month higher. Short interest changes
+                              across the S&P 500 sectors were mixed. The biggest
+                              decline in short interest was within the energy
+                              sector, which saw a 13.8% decline in short
+                              interest shares to 390.8 million. Consumer
+                              discretionary stocks saw the largest increase in
+                              bearish sentiment, with short shares rising 2.8%
+                              to 875.8 million.
+                            </p>
+                            <p
+                              class="article-text"
+                              style="
+                                color: #3b3f44;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              As the S&P 500 advanced throughout the back half
+                              of October, short sellers started to accumulate
+                              heavy losses. The bears ended up losing an
+                              aggregate $37.07 billion for the entire month.
+                            </p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          align="center"
+                          style="
+                            font-size: 0px;
+                            padding: 10px 25px;
+                            word-break: break-word;
+                          "
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style="
+                              border-collapse: collapse;
+                              border-spacing: 0px;
+                            "
+                          >
+                            <tbody>
+                              <tr>
+                                <td style="width: 550px">
+                                  <img
+                                    alt="Short sellers profits graph"
+                                    height="357"
+                                    src="https://i.ibb.co/hKW31Pd/short-profit-graph.png"
+                                    style="
+                                      border: 0;
+                                      display: block;
+                                      outline: none;
+                                      text-decoration: none;
+                                      height: 357px;
+                                      width: 100%;
+                                      font-size: 13px;
+                                    "
+                                    width="550"
+                                  />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          align="left"
+                          style="
+                            font-size: 0px;
+                            padding: 10px 25px;
+                            word-break: break-word;
+                          "
+                        >
+                          <div
+                            style="
+                              font-family: Ubuntu, Helvetica, Arial, sans-serif;
+                              font-size: 13px;
+                              line-height: 1;
+                              text-align: left;
+                              color: #000000;
+                            "
+                          >
+                            <p
+                              class="article-text"
+                              style="
+                                color: #3b3f44;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              With earnings season commencing, investors are
+                              seeing more meaningful changes in forward-looking
+                              EPS estimates within the S&P 500. The consumer
+                              discretionary sector saw earnings estimates get
+                              slashed by 8.7% overall, while real estate stocks
+                              saw a 0.9% increase.
+                            </p>
+                            <p
+                              class="article-text"
+                              style="
+                                color: #3b3f44;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              The macroeconomic uncertainties that are impacting
+                              broader investor sentiment may also be weighing on
+                              insider activity, as there was virtually no
+                              meaningful buying activity among S&P 500
+                              constituent insiders. For all levels of ORTEX
+                              Trade Significance ratings, there was just $3.1
+                              million worth of purchases, compared to nearly
+                              $3.5 billion in insider stock sales. That results
+                              in a miniscule insider buying ratio of 0.9%
+                            </p>
+                            <p
+                              class="article-text"
+                              style="
+                                color: #3b3f44;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                text-align: left;
+                              "
+                            >
+                              Sentiment among options traders appears to have
+                              improved, based on ORTEX Options Flow data for the
+                              SPY ETF. There were $14.55 billion in positive
+                              orders, compared to $5.47 billion worth of
+                              negative orders, translating into a positive order
+                              value ratio of 72%. That proportion is up from the
+                              68% positive order value ratio for SPY in
+                              September.
+                            </p>
                           </div>
                         </td>
                       </tr>

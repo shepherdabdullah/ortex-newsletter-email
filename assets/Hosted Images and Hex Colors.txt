@@ -14,7 +14,7 @@ https://i.ibb.co/jzpGWzs/sendinblue.png
 
 Email-Container Color: #ffffff
 Footer BG Color: #eff2f7
-Header Text Color: #0d928d
+Header Text Color: #0d928d / #3aa7a5
 Article Text Color: #3b3f44
 Article Link Text Color: #0092ff
 CTA Button Color: #3aa7a5

@@ -6,7 +6,7 @@
         margin: 0 auto;
       }
 
-      h1,
+      h2,
       p,
       a {
         font-family: arial, helvetica, sans-serif;
@@ -15,37 +15,73 @@
     <mj-style inline="inline">
       .email-container {
         background-color: #ffffff;
+        padding: 0;
+        margin: 0 auto;
       }
 
       .header {
         background-color: #ffffff;
       }
+
+      .article {
+        background-color: #ffffff;
+      }
+
+      .article-title {
+        color: #0d928d;
+        font-size: 19px;
+        line-height: 1.5;
+        text-align: left
+      }
+
+      .article-text {
+        color: #3b3f44;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#ddd">
     <mj-raw>
-      <!--Header-->
+      <!--Monthly Recap Header-->
     </mj-raw>
-    <mj-section css-class="header">
-      <mj-column>
-        <mj-image src="https://i.ibb.co/2jRqHbn/ortex-logo.png" align="center" width="200px" alt="Ortex Logo" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="./components/monthly-recap-header.mjml" />
     <mj-raw>
-      <!--Banner-->
+      <!--Article I-->
     </mj-raw>
-    <mj-section css-class="banner" padding-bottom="0" background-color="#ffffff">
+    <mj-section css-class="article">
       <mj-column>
-        <mj-image src="https://i.ibb.co/LZKBC42/bull-bear.jpg" width="570px" height="285px" alt="Bulls and Bears Banner" />
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      <!--Main h1/Header of Email-->
-    </mj-raw>
-    <mj-section css-class="info-header" background-color="#ffffff">
-      <mj-column>
-        <mj-text css-class="h1-main-header" align="center" font-size="36px" font-weight="bold" line-height="1.5" color="#0d928d">
-          <p>ORTEX Monthly Recap for<br> October</p>
+        <mj-text>
+          <h2 class="article-title">ORTEX Perspectives on the S&P 500 for October</h2>
+          <p class="article-text">October proved to be a volatile month, with the major indexes
+            breaching the June lows to set fresh year-to-date lows before staging a strong rebound
+            to finish the month higher. Short interest changes across the S&P 500 sectors
+            were mixed. The biggest decline in short interest was within the energy sector,
+            which saw a 13.8% decline in short interest shares to 390.8 million. Consumer
+            discretionary stocks saw the largest increase in bearish sentiment, with short
+            shares rising 2.8% to 875.8 million.</p>
+          <p class="article-text">As the S&P 500 advanced throughout the back half of October,
+            short sellers started to accumulate heavy losses. The bears ended up losing
+            an aggregate $37.07 billion for the entire month.</p>
+        </mj-text>
+        <mj-image src="https://i.ibb.co/hKW31Pd/short-profit-graph.png" width="570px" height="357px" alt="Short sellers profits graph" />
+        <mj-text>
+          <p class="article-text">With earnings season commencing, investors are seeing more
+            meaningful changes in forward-looking EPS estimates within the S&P 500. The
+            consumer discretionary sector saw earnings estimates get slashed by 8.7% overall,
+            while real estate stocks saw a 0.9% increase.</p>
+          <p class="article-text">The macroeconomic uncertainties that are impacting broader
+            investor sentiment may also be weighing on insider activity, as there was virtually
+            no meaningful buying activity among S&P 500 constituent insiders. For all levels of
+            ORTEX Trade Significance ratings, there was just $3.1 million worth of purchases,
+            compared to nearly $3.5 billion in insider stock sales. That results in a miniscule
+            insider buying ratio of 0.9%</p>
+          <p class="article-text">Sentiment among options traders appears to have improved,
+            based on ORTEX Options Flow data for the SPY ETF. There were $14.55 billion in positive
+            orders, compared to $5.47 billion worth of negative orders, translating into a positive
+            order value ratio of 72%. That proportion is up from the 68% positive order value ratio
+            for SPY in September.</p>
         </mj-text>
       </mj-column>
     </mj-section>
