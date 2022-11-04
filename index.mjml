@@ -37,14 +37,15 @@
         color: #0d928d;
         font-size: 19px;
         line-height: 1.5;
-        text-align: left
+        text-align: left;
+        padding-bottom: 8px;
       }
 
       .article-text {
         color: #3b3f44;
         font-size: 16px;
         line-height: 1.5;
-        text-align: left
+        text-align: left;
       }
 
       .button-link {
@@ -76,7 +77,7 @@
     <mj-raw>
       <!--Article I-->
     </mj-raw>
-    <mj-section css-class="article">
+    <mj-section padding-bottom="0px" css-class="article">
       <mj-column>
         <mj-text>
           <h2 class="article-title">ORTEX Perspectives on the S&P 500 for October</h2>
@@ -114,7 +115,7 @@
     <mj-raw>
       <!--Article II-->
     </mj-raw>
-    <mj-section css-class="article" padding-top="0">
+    <mj-section padding-bottom="0px" padding-top="8px" css-class="article" padding-top="0">
       <mj-column>
         <mj-text>
           <h2 class="article-title">Market developments in October</h2>
@@ -134,13 +135,13 @@
           <p class="article-text">For the month, the Dow Jones Industrial Average rallied 14%, the S&P 500
             added 8%, and the Nasdaq Composite advanced by 3.9%.</p>
         </mj-text>
-        <mj-image src="https://i.ibb.co/prjk16t/industry-graph.png" width="570px" height="400px" alt="industry graph" />
+        <mj-image padding-top="40px" padding-bottom="40px" src="https://i.ibb.co/prjk16t/industry-graph.png" width="570px" height="400px" alt="industry graph" />
       </mj-column>
     </mj-section>
     <mj-raw>
       <!--Article III-->
     </mj-raw>
-    <mj-section css-class="article">
+    <mj-section padding-bottom="0px" padding-top="8px" css-class="article">
       <mj-column>
         <mj-text>
           <h2 class="article-title">October's Top Performing Trading Signal</h2>
@@ -160,7 +161,7 @@
     <mj-raw>
       <!--Article IV-->
     </mj-raw>
-    <mj-section css-class="article">
+    <mj-section padding-bottom="0px" padding-top="8px" css-class="article">
       <mj-column>
         <mj-text>
           <h2 class="article-title">Highest Short Seller Gain and Loss</h2>
@@ -183,7 +184,7 @@
     <mj-raw>
       <!--Article V-->
     </mj-raw>
-    <mj-section css-class="article">
+    <mj-section padding-bottom="0px" padding-top="8px" css-class="article">
       <mj-column>
         <mj-text>
           <h2 class="article-title">What's New on ORTEX</h2>
@@ -202,7 +203,7 @@
     <mj-raw>
       <!--CTA Button-->
     </mj-raw>
-    <mj-section css-class="white-background">
+    <mj-section padding="0px" css-class="white-background">
       <mj-column>
         <mj-button border-radius="4px" line-height="1.5" width="285px" height="42px" padding="12px 5px" background-color="#3aa7a5">
           <a class="button-link" href="https://public.ortex.com/">Go to ORTEX</a>
@@ -225,17 +226,6 @@
     <mj-raw>
       <!--Footer-->
     </mj-raw>
-    <mj-section css-class="footer">
-      <mj-column>
-        <mj-text>
-          <p style="padding-top: 8px; Margin: 0; line-height: 1.5; font-size: 18px; font-weight: bold; text-align: center; color: #3b3f44; font-family: arial, helvetica, sans-serif;">ORTEX Technologies LTD</p>
-          <p class="footer-text" style="Margin: 0; line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">26-27 Bedford Square, WC1B 3HP, London</p>
-          <p class="footer-text" style="line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">This email was sent to ExampleEmail@ExampleEmailClient.com<br>You've received this email because you've subscribed to our newsletter.</p>
-          <p style="padding-top: 5px; text-align: center; font-size: 14px; text-decoration: underline; color: #0092ff;"><a href="#">Unsubscribe</a>
-          <p>
-        </mj-text>
-        <mj-image padding-top="0px" width="129px" height="48px" src="https://i.ibb.co/jzpGWzs/sendinblue.png" alt="Sendinblue Logo" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="./components/footer.mjml" />
   </mj-body>
 </mjml>

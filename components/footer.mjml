@@ -1,0 +1,15 @@
+<mj-raw>
+  <!--Footer-->
+</mj-raw>
+<mj-section css-class="footer">
+  <mj-column>
+    <mj-text>
+      <p style="padding-top: 8px; Margin: 0; line-height: 1.5; font-size: 18px; font-weight: bold; text-align: center; color: #3b3f44; font-family: arial, helvetica, sans-serif;">ORTEX Technologies LTD</p>
+      <p class="footer-text" style="Margin: 0; line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">26-27 Bedford Square, WC1B 3HP, London</p>
+      <p class="footer-text" style="line-height: 1.5; font-size: 14px; color: #3b3f44; font-family: arial, helvetica, sans-serif; text-align: center;">This email was sent to ExampleEmail@ExampleEmailClient.com<br>You've received this email because you've subscribed to our newsletter.</p>
+      <p style="padding-top: 5px; text-align: center; font-size: 14px; text-decoration: underline; color: #0092ff;"><a href="#">Unsubscribe</a>
+      <p>
+    </mj-text>
+    <mj-image padding-top="0px" width="129px" height="48px" src="https://i.ibb.co/jzpGWzs/sendinblue.png" alt="Sendinblue Logo" />
+  </mj-column>
+</mj-section>
