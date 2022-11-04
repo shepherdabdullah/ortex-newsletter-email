@@ -57,6 +57,10 @@
         text-decoration: none;
       }
 
+      .social-icons {
+        max-width: 125px;
+      }
+
       .footer {
         background-color: #eff2f7;
       }
@@ -213,13 +217,13 @@
     <mj-raw>
       <!--Social Media Icons-->
     </mj-raw>
-    <mj-section css-class="white-background">
-      <mj-group>
-        <mj-column>
-          <mj-image width="32px" height="32px" href="https://twitter.com/ORTEX" src="https://i.ibb.co/dWJD1gB/twitter.png" alt="Ortex Official Twitter" />
+    <mj-section css-class="white-background social-icons" padding="10px" padding-bottom="25px">
+      <mj-group css-class="social-icons">
+        <mj-column padding="0">
+          <mj-image align="right" padding-right="4px" width="32px" height="32px" href="https://twitter.com/ORTEX" src="https://i.ibb.co/dWJD1gB/twitter.png" alt="Ortex Official Twitter" />
         </mj-column>
-        <mj-column>
-          <mj-image width="32px" height="32px" href="https://www.youtube.com/c/ORTEX_Official" src="https://i.ibb.co/B6Ts3k5/youtube.png" alt="Ortex Official Youtube Channel" />
+        <mj-column padding="0">
+          <mj-image align="left" padding-left="4px" width="32px" height="32px" href="https://www.youtube.com/c/ORTEX_Official" src="https://i.ibb.co/B6Ts3k5/youtube.png" alt="Ortex Official Youtube Channel" />
         </mj-column>
       </mj-group>
     </mj-section>
